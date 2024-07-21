@@ -48,9 +48,22 @@
 
 // -----------------------------ejercicio4--------------------------
     
+    let numero = parseInt(prompt("ingrese un numero"))
+    let divisor = 1
+    let contador = 0
 
-
-
+    while (divisor <= numero) {
+        if (numero % divisor == 0) {
+            contador++
+        }
+        divisor++
+    }
+if (contador == 2) {
+    console.log("el numero es primo");
+    
+}else{
+    console.log("el numero no es primo");
+}
 // ------------------ejercicio5------------------------
 
 // let numero = 100
