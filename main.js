@@ -1,52 +1,52 @@
 
-//--------------ejercicio1------------------------- 
+--------------ejercicio1------------------------- 
 
-// let numero = 2
+let numero = 2
 
-// for (let i = 0; i <= 10; i++) {
-//     console.log(i * numero);
-// }
+for (let i = 0; i <= 10; i++) {
+    console.log(i * numero);
+}
 
-// ------------------ejercicio2---------------------
+------------------ejercicio2---------------------
 
-// let numero = 0
+let numero = 0
 
-// for (let i = 0; i < 5; i++) {
-//     let ingreseNumero = parseInt(prompt("ingrese un numero"))
-//     if (ingreseNumero !== numero) {
-//         numero += ingreseNumero;
-//         console.log("la suma total es:" + numero);
-//     }else{
-//         break
-//     }
+for (let i = 0; i < 5; i++) {
+    let ingreseNumero = parseInt(prompt("ingrese un numero"))
+    if (ingreseNumero !== numero) {
+        numero += ingreseNumero;
+        console.log("la suma total es:" + numero);
+    }else{
+        break
+    }
     
-// }
+}
 
-// ------------------ejercicio3--------------------------
+------------------ejercicio3--------------------------
 
-    // let numeroSecreto = 20;
-    // let intentos = 0;
-    // let jugar = true;
-    // let numeroUsuario;
+    let numeroSecreto = 20;
+    let intentos = 0;
+    let jugar = true;
+    let numeroUsuario;
     
-    // while (jugar) {
-    //     numeroUsuario = prompt("Adivina el número secreto (entre 1 y 100):");
-    //     numeroUsuario = Number(numeroUsuario);
-    //     intentos++;
+    while (jugar) {
+        numeroUsuario = prompt("Adivina el número secreto (entre 1 y 100):");
+        numeroUsuario = Number(numeroUsuario);
+        intentos++;
     
-    //     if (numeroUsuario < numeroSecreto) {
-    //         alert("El número secreto es mayor. Intenta de nuevo.");
-    //     } else if (numeroUsuario > numeroSecreto) {
-    //         alert("El número secreto es menor. Intenta de nuevo.");
-    //     } else {
-    //         jugar = false;
-    //     }
-    // }
-    // console.log("Felicidades! Has adivinado el número " + numeroSecreto + " en " + intentos + " intentos.");
-    // console.log("Juego terminado.");
+        if (numeroUsuario < numeroSecreto) {
+            alert("El número secreto es mayor. Intenta de nuevo.");
+        } else if (numeroUsuario > numeroSecreto) {
+            alert("El número secreto es menor. Intenta de nuevo.");
+        } else {
+            jugar = false;
+        }
+    }
+    console.log("Felicidades! Has adivinado el número " + numeroSecreto + " en " + intentos + " intentos.");
+    console.log("Juego terminado.");
 
 
-// -----------------------------ejercicio4--------------------------
+-----------------------------ejercicio4--------------------------
     
     let numero = parseInt(prompt("ingrese un numero"))
     let divisor = 1
@@ -64,185 +64,204 @@ if (contador == 2) {
 }else{
     console.log("el numero no es primo");
 }
-// ------------------ejercicio5------------------------
+------------------ejercicio5------------------------
 
-// let numero = 100
+let numero = 100
 
-// for (let i = 0; i <= 10; i++) {
-//     console.log(i / numero);
-// }
+for (let i = 0; i <= 10; i++) {
+    console.log(i / numero);
+}
 
-// --------------------ejercicio6------------------------
+--------------------ejercicio6------------------------
 
-// let moto = ["llantas","faro", "stop", 
-//     "tanque", "asiento", "frenos", "bujia", "tanque", "cadena",
-// "direccionales"]
+let moto = ["llantas","faro", "stop", 
+    "tanque", "asiento", "frenos", "bujia", "tanque", "cadena",
+"direccionales"]
 
-// for (let i = 0; i < moto.length; i++) {
-//    console.log(moto [i]);
+for (let i = 0; i < moto.length; i++) {
+   console.log(moto [i]);
     
-// }
+}
 
-// // ----------------ejercicio7--------------------
+// ----------------ejercicio7--------------------
 
-// let arrayNumero = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+let arrayNumero = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-// for (let i = 0; i < arrayNumero.length; i++) {
-//     let doble = arrayNumero[i] * 2;
-//     console.log("el doble de: " + arrayNumero[i] + " es: " + doble );
-// }
+for (let i = 0; i < arrayNumero.length; i++) {
+    let doble = arrayNumero[i] * 2;
+    console.log("el doble de: " + arrayNumero[i] + " es: " + doble );
+}
 
-// ---------------ejercicio8------------------------
+---------------ejercicio8------------------------
 
-// let grupoFamiliar = [
-//     {
-//         nombre : "juan",
-//         edad : 22,
-//         estatura : 175,
-//         profesion : "abogado",
-//     },
-//     {
-//         nombre : "pedro",
-//         edad : 33,
-//         estatura : 180,
-//         profesion : "profesor",
-//     },
-//      {
-//         nombre : "maria",
-//         edad : 30,
-//         estatura : 167,
-//         profesion : "doctora",
-//     },
-//     {
-//         nombre : "carla",
-//         edad : 25,
-//         estatura : 175,
-//         profesion : "modelo",
-//     },
-//     {
-//         nombre : "carmen",
-//         edad : 22,
-//         estatura : 182,
-//         profesion : "peluquera",
-//     }
-// ]
+let grupoFamiliar = [
+    {
+        nombre : "juan",
+        edad : 22,
+        estatura : 175,
+        profesion : "abogado",
+    },
+    {
+        nombre : "pedro",
+        edad : 33,
+        estatura : 180,
+        profesion : "profesor",
+    },
+     {
+        nombre : "maria",
+        edad : 30,
+        estatura : 167,
+        profesion : "doctora",
+    },
+    {
+        nombre : "carla",
+        edad : 25,
+        estatura : 175,
+        profesion : "modelo",
+    },
+    {
+        nombre : "carmen",
+        edad : 22,
+        estatura : 182,
+        profesion : "peluquera",
+    }
+]
 
-// for (let i = 0; i < grupoFamiliar.length; i++) {
-//     console.log("=================================");
-//     console.log("hola mi nombre es: " +grupoFamiliar[i].nombre);
-//     console.log("tengo " +grupoFamiliar[i].edad,"años");
-//     console.log("mido " +grupoFamiliar[i].estatura);
-//     console.log("y soy: " +grupoFamiliar[i].profesion);
-// }
+for (let i = 0; i < grupoFamiliar.length; i++) {
+    console.log("=================================");
+    console.log("hola mi nombre es: " +grupoFamiliar[i].nombre);
+    console.log("tengo " +grupoFamiliar[i].edad,"años");
+    console.log("mido " +grupoFamiliar[i].estatura);
+    console.log("y soy: " +grupoFamiliar[i].profesion);
+}
 
-// -------------------ejercicio9-----------------------
+-------------------ejercicio9-----------------------
 
-// let arrayNumero = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+let arrayNumero = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-// for (let i = 0; i < arrayNumero.length; i++) {
-//     if (i % 2 === 1) {
-//         console.log([i]);
-//     }
-// }
+for (let i = 0; i < arrayNumero.length; i++) {
+    if (i % 2 === 1) {
+        console.log([i]);
+    }
+}
 
-// --------------------ejercicio10--------------------
+--------------------ejercicio10--------------------
 
-// let impar = true
-// let suma
-// let contador = 0;
+let impar = true
+let suma
+let contador = 0;
 
-// while (impar) {
-//     let Numero = parseInt(prompt("ingrese un numero"))
-//     let ingreseNumero = parseInt(prompt("ingrese un numero"))
-//            if (ingreseNumero === 0) {
-//                     console.log("dato no valido");
-//                     break 
-//             }else if (ingreseNumero % 2 === 1) {
-//                 suma = ingreseNumero + Numero
-//                 console.log(" su numero es impar   " + suma)
-//             }else if (ingreseNumero % 2 === 0) {
-//                 suma = ingreseNumero + Numero
-//                 console.log("el numero es par  " + suma);
-//             }
-//             contador++
-//         }
-
-
-// ------------------------ejercicio 11------------------------
+while (impar) {
+    let Numero = parseInt(prompt("ingrese un numero"))
+    let ingreseNumero = parseInt(prompt("ingrese un numero"))
+           if (ingreseNumero === 0) {
+                    console.log("dato no valido");
+                    break 
+            }else if (ingreseNumero % 2 === 1) {
+                suma = ingreseNumero + Numero
+                console.log(" su numero es impar   " + suma)
+            }else if (ingreseNumero % 2 === 0) {
+                suma = ingreseNumero + Numero
+                console.log("el numero es par  " + suma);
+            }
+            contador++
+        }
 
 
-// let arrayNumero = [1, 0, 3, 4, 5, 60, 7, 8, 9, 10]
-
-// for (let i = 0; i < arrayNumero.length; i++) {
-//     let maximo = Math.max(...arrayNumero)
-//     console.log("el valor maximo es: " + maximo);
-// }
+------------------------ejercicio 11------------------------
 
 
-// for (let i = 0; i < arrayNumero.length; i++) {
-//     let minimo = Math.min(...arrayNumero)
-//     console.log("el valor minimo es: " + minimo);
-// }
+let arrayNumero = [1, 0, 3, 4, 5, 60, 7, 8, 9, 10]
 
-// ----------------------ejercicio13------------------
+for (let i = 0; i < arrayNumero.length; i++) {
+    let maximo = Math.max(...arrayNumero)
+    console.log("el valor maximo es: " + maximo);
+}
 
-// while (jugador1 === jugador2) {
+
+for (let i = 0; i < arrayNumero.length; i++) {
+    let minimo = Math.min(...arrayNumero)
+    console.log("el valor minimo es: " + minimo);
+}
+
+----------------------ejercicio13------------------
+
+while (jugador1 === jugador2) {
     
-// }
-// let jugador1 = prompt( "jugador1 piedra/papel/tijera")
-// let jugador2 = prompt( "jugardor2 piedra/papel/tijera")
+}
+let jugador1 = prompt( "jugador1 piedra/papel/tijera")
+let jugador2 = prompt( "jugardor2 piedra/papel/tijera")
 
-// if (jugador1 === jugador2) {
-//     console.log("empate");
+if (jugador1 === jugador2) {
+    console.log("empate");
 
-// }else if (jugador1 === "piedra") {
-//     if (jugador2 === "papel") {
-//         console.log("gana el jugador 2");
-//     }else if (jugador2 ==="tijera" ) {
-//         console.log("gana jugador 1");
+}else if (jugador1 === "piedra") {
+    if (jugador2 === "papel") {
+        console.log("gana el jugador 2");
+    }else if (jugador2 ==="tijera" ) {
+        console.log("gana jugador 1");
 
-//     }else{
-//         console.log("el jugador 2 esta haciendo trampa");
-//     }
-// }else if (jugador1 === "papel") {
-//     if (jugador2 === "piedra") {
-//         console.log("gana el jugador 1");
-//     }else if (jugador2 ==="tijera" ) {
-//         console.log("gana jugador 2");
-//     }else{
-//         console.log("el jugador 2 esta haciendo trampa");
-//     }
-// }else if (jugador1 === "tijera") {
-//     if (jugador2 === "piedra") {
-//         console.log("gana el jugador 2");
-//     }else if (jugador2 ==="papel" ) {
-//         console.log("gana jugador 1");
-//     }else{
-//         console.log("el jugador 2 esta haciendo trampa");
-//     }
-// }else{
-//     console.log("el jugador 1 hace trampa");
-// }
+    }else{
+        console.log("el jugador 2 esta haciendo trampa");
+    }
+}else if (jugador1 === "papel") {
+    if (jugador2 === "piedra") {
+        console.log("gana el jugador 1");
+    }else if (jugador2 ==="tijera" ) {
+        console.log("gana jugador 2");
+    }else{
+        console.log("el jugador 2 esta haciendo trampa");
+    }
+}else if (jugador1 === "tijera") {
+    if (jugador2 === "piedra") {
+        console.log("gana el jugador 2");
+    }else if (jugador2 ==="papel" ) {
+        console.log("gana jugador 1");
+    }else{
+        console.log("el jugador 2 esta haciendo trampa");
+    }
+}else{
+    console.log("el jugador 1 hace trampa");
+}
 
-// -----------------------ejecicio14---------------
-// for (let i = 0; i < 5; i++) {
-//     let triangulo = "";
+-----------------------ejecicio14---------------
+for (let i = 0; i < 5; i++) {
+    let triangulo = "";
 
-//     for (let ciclo = 0; ciclo <= i; ciclo++) {
-//         triangulo += " * ";
-// }
-// console.log(triangulo);
-// }
+    for (let ciclo = 0; ciclo <= i; ciclo++) {
+        triangulo += " * ";
+}
+console.log(triangulo);
+}
 
-// ----------------------ejercicio15----------------------
-// for (let i = 5; i >= 1; i--) {
-//         let triangulo = "";
+----------------------ejercicio15----------------------
+for (let i = 5; i >= 1; i--) {
+        let triangulo = "";
     
-//         for (let ciclo = i; ciclo >= 1; ciclo--) {
-//             triangulo += " * ";
-//     }
-//     console.log(triangulo);
-//     }
+        for (let ciclo = i; ciclo >= 1; ciclo--) {
+            triangulo += " * ";
+    }
+    console.log(triangulo);
+    }
 
 
-    
+--------------------ejrercicio16-------------------------
+
+let arrayNumero = [100, 45, 1, 0, 5, 60, 7, 8, 9, 10]
+
+function ordenar(comparar) {
+    for (let i = 0; i < comparar.length - 1; i++) {
+        for (let j = 0; j < comparar.length - 1; j++) {
+        if (comparar[j] > comparar[j+1]) {
+            let orden = comparar[j]
+            comparar[j] = comparar[j+1]
+            comparar[j+1] = orden
+        };
+
+        };
+        
+    };
+    return comparar
+};
+
+console.log(ordenar(arrayNumero));
